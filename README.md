@@ -6,7 +6,7 @@ Run censorship-rate to get percentage of blocked webpages. input = query_params,
 Run url-categorization to categorize a country's blocked content. input = list of country_codes. 
 The excel files have raw data, some data cleaning formulas, and graphs. 
 
-#analysis
+# analysis
 The censorship rate is the percentage of blocked URLs. OONI maintains a global and country-specific list of URLs for testing. 
 To get the content types I categorized the URLs using a keyword bank. 
 The countries in the graph are the only countries who block more than 1% of URLs
